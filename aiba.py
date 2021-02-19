@@ -20,7 +20,7 @@ async def ping(ctx):
 #Ayuda del bot
 @bot.command()
 async def ayuda(ctx):
-    embed=discord.Embed(title="Aiba", url="https://hraycampos.me", description="Bot chikito WIP", color=0xa0200e)
+    embed=discord.Embed(title="Aiba", url="https://luppiter.xyz", description="Bot chikito WIP", color=0xa0200e)
     embed.set_author(name="Help")
     embed.set_thumbnail(url="https://i.imgur.com/pqSn6Kp.png")
     embed.add_field(name="ping", value="Pong", inline=False)
